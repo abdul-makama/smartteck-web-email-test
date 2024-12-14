@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+    }
+    .email-container {
+      max-width: 600px;
+      margin: auto;
+      /*background: linear-gradient(to bottom, #00aaff, #0044cc); /* Blueish gradient */
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      color: #000000; /* Gray text */
+    }
+    
+    .header {
+      background-image: url('blue-bg-2.jpg'); /* Background image */
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .header p {
+      margin: 5px 0 0;
+      font-size: 14px;
+      color: #d9ecff;
+    }
+    .content {
+      padding: 20px;
+      /*color: #333;*/
+      color: #000000; /* Gray text */
+    }
+    .content img {
+      max-width: 100%;
+      height: auto;
+      margin: 10px 0;
+    }
+    .cta-button {
+      display: block;
+      width: fit-content;
+      margin: 20px auto;
+      padding: 12px 20px;
+      color: #ffffff;
+      background-color: #28a745;
+      text-decoration: none;
+      border-radius: 5px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .cta-button:hover {
+      background-color: #218838;
+    }
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+      padding: 10px 20px;
+      background-color: #f4f4f4;
+    }
+    .footer a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+    <div class="email-container">
+    <!-- Header Section -->
+    <div class="header">
+      <h1>Important Account Update</h1>
+      <p>Your Wallet is Empty</p>
+    </div>
+    <!-- Content Section -->
+    <div class="content">
+      <p>Dear [User Name],</p>
+      <p>We noticed that your wallet currently has no funding, and we don't want you to miss out on important transactions or services!</p>
+      <div style="display: flex; justify-content: center; align-items: center; height: auto;">
+        <img src="open-empty-wallet.jpg" alt="Empty Wallet" style="max-width: 50%; height: auto; border-radius: 10px;" />
+      </div>
+      
+      <p>To continue enjoying uninterrupted access to our platform, please add funds to your wallet today.</p>
+      <a href="https://example.com/add-funds" class="cta-button">Add Funds Now</a>
+      <p>Need help? Our support team is here for you. Contact us anytime at <a href="mailto:support@example.com">smartteck@gmail.com</a>.</p>
+    </div>
+    <!-- Footer Section -->
+    <div class="footer">
+      <p>&copy; 2024 smartteck. All rights reserved.</p>
+      <p><a href="https://example.com/privacy-policy">Privacy Policy</a> | <a href="https://example.com/unsubscribe">Unsubscribe</a></p>
+    </div>
+  </div>
+</body>
+</html>
